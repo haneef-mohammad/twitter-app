@@ -24,9 +24,9 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 SECRET_KEY = "django-insecure-=1^z*p=(!fc3$nv%p(*a8bum1g@e0n8-n7tk+d4i=tll_!pt-_"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['my-dummy-twitter.herokuapp.com','127.0.0.1']
 
 
 # Application definition
